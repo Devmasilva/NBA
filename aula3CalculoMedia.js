@@ -26,3 +26,18 @@ console.log('Média do Márcio: ' + resultadoDaMediaDoMarcio)
 
 const resultadoDaMediaDaBea = calcularMedia(4, 8, 12)
 console.log('Média da Bea: ' + resultadoDaMediaDaBea)
+
+
+/* Pratica após 
+
+  function somar (primeiroNumero , segundoNumero , terceiroNumero){
+  const resultadoDaSoma = primeiroNumero + segundoNumero + terceiroNumero
+  return resultadoDaSoma
+
+}
+
+const calcularMedia = somar (65,75,90) / 3
+console.log(calcularMedia)
+
+/*
+
