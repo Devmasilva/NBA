@@ -1,3 +1,16 @@
+/*
+const primeiroNumero = 5
+const segundoNumero = 10.0
+const terceiroNumero = 25.0
+
+const somaDosTresValores = primeiroNumero + segundoNumero + terceiroNumero
+
+const resultadoDaMedia = somaDosTresValores / 3 
+
+console.log(resultadoDaMedia)
+*/
+
+
 // Desenhando a Função!
 function calcularMedia(primeiroNumero, segundoNumero, terceiroNumero) {
   const somaDosTresValores = primeiroNumero + segundoNumero + terceiroNumero
