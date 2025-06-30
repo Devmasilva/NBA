@@ -1,0 +1,13 @@
+function identificarMaioridade (idade){
+   // CRIANDO UMA CONDIÇÃO ( EX SE A IDADE FORNECIDA FOR MAIOR QUE 18 RETORNE 'MAIOR' SE NÃPO RETORNE 'MENOR')
+   if (idade >= 18)
+     return 'Maior'
+   else 
+     return 'Menor'
+}
+
+const maioridadeDoMatheus = identificarMaioridade (28)
+console.log ('O Matheus é de: ' + maioridadeDoMatheus)
+
+const maioridadeDoPedro = identificarMaioridade (5)
+console.log ('O Pedro é de: ' + maioridadeDoPedro)
