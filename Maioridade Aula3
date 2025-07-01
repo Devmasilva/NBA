@@ -11,3 +11,50 @@ console.log ('O Matheus é de: ' + maioridadeDoMatheus)
 
 const maioridadeDoPedro = identificarMaioridade (5)
 console.log ('O Pedro é de: ' + maioridadeDoPedro)
+
+
+FORMA 2 Focar no Return com concatenação  ( Sempre Aspas SIMPLES PARA UMA STRING )
+
+function identificarMaioridade (nome,idade){
+   // CRIANDO UMA CONDIÇÃO ( EX SE A IDADE FORNECIDA FOR MAIOR QUE 18 RETORNE 'MAIOR' SE NÃPO RETORNE 'MENOR')
+   if (idade >= 18)
+     return 'Maioridade do ' + nome + ':' + 'Maior'
+   else 
+     return 'Maioridade do ' + nome + ':' + 'Menor'
+}
+
+const maioridadeDoMatheus = identificarMaioridade ('Matheus' ,  28)
+console.log ( maioridadeDoMatheus)
+
+const maioridadeDoPedro = identificarMaioridade ('Pedro' ,5 )
+console.log (maioridadeDoPedro)
+
+
+
+FORMA 3
+
+function  identificarMaioridade ( nome ,  idade )  {
+  // Se a idade alterada para maior ou igual a 18 retorne 'Maior' senão retorne 'Menor'
+  se  ( idade  >=  50 ) 
+    return  `Maioridade do ${ nome } : Maduro`
+  senão  se  ( idade  >=  18 )
+    return  `Maioridade do ${ nome } : Adulto`
+  senão  se  ( idade  >=  12 ) 
+    return  `Maioridade do ${ nome } : Adolescente`
+  outro
+    return  `Maioridade do ${ nome } : Criança`
+}
+
+// >, >=, <, <=, ==, !=
+
+const  maioridadeDaCelina  =  identificarMaioridade ( 'Celina' ,  51 )
+console . log ( maioriaDaCelina )
+
+const  maioridadeDoMarcos  =  identificarMaioridade ( 'Marcos' ,  46 )
+console . log ( maioriaDoMarcos )
+
+const  maioridadeDoRonaldo  =  identificarMaioridade ( 'Ronaldo' ,  9 )
+console . log ( maioriaDoRonaldo )
+
+const  maioridadeDoLucas  =  identificarMaioridade ( 'Lucas' ,  14 )
+console . log ( maioriaDoLucas )
